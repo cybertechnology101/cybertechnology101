@@ -1,116 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Amine El Bousiydy - Cybersecurity Analyst & Ethical Hacker Portfolio">
-  <meta name="author" content="Amine El Bousiydy">
-  <title>Amine El Bousiydy | Cybersecurity Analyst</title>
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-
-  <!-- Font Awesome -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amine El Bousiydy | Cybersecurity</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
   <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-
-  <!-- External CSS -->
-  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- ===== Header ===== -->
   <header>
-    <div class="container header-wrapper">
-      <h1 class="logo">CT101<span>.</span></h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h1 class="logo">CT101<span></span></h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- ===== Hero Section ===== -->
   <section class="hero" id="home">
-    <div class="container hero-content">
-      <div class="text">
-        <h2>Hi, I’m <span>Amine El Bousiydy</span></h2>
-        <p>Cybersecurity Analyst & Ethical Hacker from Morocco 🇲🇦<br>
-        Securing networks, hunting bugs, and defending digital worlds.</p>
-        <a href="#contact" class="btn">Hire Me</a>
-      </div>
-      <div class="image">
-        <img src="main.jpg" alt="Amine El Bousiydy" />
-      </div>
+    <div class="content">
+      <h2>Hi, I’m <span>Amine El Bousiydy</span></h2>
+      <p>Cybersecurity Analyst & Ethical Hacker from Morocco 🇲🇦<br>
+      Passionate about securing networks, exploiting vulnerabilities, and defending digital systems.</p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+    <div class="image">
+      <img src="main.jpg" alt="Amine El Bousiydy">
     </div>
   </section>
 
-  <!-- ===== Skills Section ===== -->
   <section id="skills" class="skills">
-    <div class="container">
-      <h2>🛡️ Professional Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-box">
-          <h3>🔒 Network Security</h3>
-          <p>Expert in securing LAN/WAN, VLANs, Firewalls (Cisco ASA, pfSense), IDS/IPS, and VPNs.</p>
-        </div>
-        <div class="skill-box">
-          <h3>🧪 Penetration Testing</h3>
-          <p>Hands-on experience using Nmap, Burp Suite, Metasploit, Hydra, etc., for real-world pen testing.</p>
-        </div>
-        <div class="skill-box">
-          <h3>🐧 Linux Administration</h3>
-          <p>Strong in system hardening, bash scripting, permissions, and deploying secure Linux environments.</p>
-        </div>
-        <div class="skill-box">
-          <h3>🎯 Bug Bounty & OSINT</h3>
-          <p>Active on HackerOne & Bugcrowd. Skilled with Recon-ng, Shodan, Google Dorking for recon work.</p>
-        </div>
-      </div>
+  <h2>🛡️ Professional Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-box">
+      <h3>🔒 Network Security</h3>
+      <p>Expert in securing LAN/WAN environments, VLANs, Firewalls (Cisco ASA, pfSense), IDS/IPS systems, and VPN tunnels.</p>
     </div>
-  </section>
-
-  <!-- ===== Projects Section ===== -->
-  <section id="projects" class="projects">
-    <div class="container">
-      <h2>💻 Recent Professional Projects</h2>
-
-      <div class="project">
-        <h3>Enterprise Network Security Audit</h3>
-        <p>Conducted a full-scale audit, identified misconfigurations, and delivered ISO 27001-aligned reports.</p>
-      </div>
-
-      <div class="project">
-        <h3>Automated Threat Detection System</h3>
-        <p>Built a Python tool parsing logs and network traffic to trigger SIEM alerts in real-time.</p>
-      </div>
-
-      <div class="project">
-        <h3>Bug Bounty Program Contributions</h3>
-        <p>Reported XSS, SQLi, and logic flaws to programs on HackerOne, earning acknowledgments and rewards.</p>
-      </div>
+    <div class="skill-box">
+      <h3>🧪 Penetration Testing</h3>
+      <p>Hands-on experience with Kali Linux tools (Nmap, Burp Suite, Metasploit, Hydra) for real-world vulnerability assessment.</p>
     </div>
-  </section>
+    <div class="skill-box">
+      <h3>🐧 Linux Administration</h3>
+      <p>Proficient in system hardening, user rights management, bash scripting, and deploying secure Linux servers (Ubuntu/CentOS).</p>
+    </div>
+    <div class="skill-box">
+      <h3>🎯 Bug Bounty & OSINT</h3>
+      <p>Actively hunting for vulnerabilities on platforms like HackerOne & Bugcrowd, using tools like Recon-ng, Shodan, and Google Dorking.</p>
+    </div>
+  </div>
+</section>
 
-  <!-- ===== Contact Section ===== -->
+
+<section id="projects" class="projects">
+  <h2>💻 Recent Professional Projects</h2>
+
+  <div class="project">
+    <h3>Enterprise Network Security Audit</h3>
+    <p>Conducted a comprehensive security audit for a mid-sized company, identifying vulnerabilities in firewall configurations, network segmentation, and remote access policies. Delivered detailed remediation plans and compliance reports aligned with ISO 27001 standards.</p>
+  </div>
+
+  <div class="project">
+    <h3>Automated Threat Detection System</h3>
+    <p>Developed a Python-based automation tool that parses syslogs and network traffic to detect anomalies and potential intrusions, integrating with SIEM platforms to trigger alerts in real-time.</p>
+  </div>
+
+  <div class="project">
+    <h3>Bug Bounty Program Contributions</h3>
+    <p>Discovered and responsibly disclosed critical vulnerabilities on multiple web applications, including SQL Injection and Cross-Site Scripting (XSS) flaws, earning recognition and rewards on platforms like HackerOne.</p>
+  </div>
+</section>
+
+
   <section id="contact" class="contact">
-    <div class="container">
-      <h2>📬 Contact Me</h2>
-      <p><strong>Email:</strong> <a href="mailto:aminebousiydy@protonmail.com">aminebousiydy@protonmail.com</a></p>
-      <p><strong>Instagram:</strong> <a href="https://www.instagram.com/cybertechnology101" target="_blank">@cybertechnology101</a></p>
-    </div>
+    <h2>📬 Contact Me</h2>
+    <p>Email: <a href="mailto:aminebousiydy@protonmail.com">aminebousiydy@protonmail.com</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/cybertechnology101" target="_blank">@cybertechnology101</a></p>
   </section>
 
-  <!-- ===== Footer ===== -->
   <footer>
-    <div class="container">
-      <p>© 2025 Amine El Bousiydy. All rights reserved.</p>
-    </div>
+    <p>© 2025 Amine El Bousiydy. All Rights Reserved.</p>
   </footer>
 
 </body>
