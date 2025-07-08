@@ -1,45 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amine El Bousiydy | Cybersecurity Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Amine El Bousiydy - Cybersecurity Analyst & Ethical Hacker Portfolio">
+  <meta name="author" content="Amine El Bousiydy">
+  <title>Amine El Bousiydy | Cybersecurity Analyst</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Amine El Bousiydy</h1>
-      <p>🕷️ Bug Bounty Hunter | 🛡️ Ethical Hacker | 🔐 Cybersecurity Analyst</p>
-    </header>
 
-    <section class="about">
-      <h2>👨‍💻 About Me</h2>
-      <p>I specialize in discovering vulnerabilities in web applications and sharing knowledge about ethical hacking and cybersecurity. I’m active on platforms like HackerOne and TryHackMe, and I enjoy breaking and securing systems.</p>
-    </section>
+  <!-- ===== Header ===== -->
+  <header>
+    <div class="container header-wrapper">
+      <h1 class="logo">CT101<span>.</span></h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <section class="skills">
-      <h2>🛠️ Tools & Skills</h2>
-      <ul>
-        <li>Burp Suite</li>
-        <li>Nmap</li>
-        <li>Wireshark</li>
-        <li>Linux / Kali</li>
-        <li>Metasploit</li>
-        <li>OWASP Top 10</li>
-      </ul>
-    </section>
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="text">
+        <h2>Hi, I’m <span>Amine El Bousiydy</span></h2>
+        <p>Cybersecurity Analyst & Ethical Hacker from Morocco 🇲🇦<br>
+        Securing networks, hunting bugs, and defending digital worlds.</p>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+      <div class="image">
+        <img src="main.jpg" alt="Amine El Bousiydy" />
+      </div>
+    </div>
+  </section>
 
-    <section class="contact">
-      <h2>🔗 Connect With Me</h2>
-      <ul>
-        <li><a href="https://tryhackme.com/p/amine.skapino" target="_blank">TryHackMe</a></li>
-        <li><a href="https://hackerone.com/amine.skapino" target="_blank">HackerOne</a></li>
-        <li><a href="https://github.com/amine-skapino" target="_blank">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/amine-skapino" target="_blank">LinkedIn</a></li>
-        <li><a href="https://www.instagram.com/amine.skapino" target="_blank">Instagram</a></li>
-      </ul>
-    </section>
-  </div>
+  <!-- ===== Skills Section ===== -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>🛡️ Professional Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-box">
+          <h3>🔒 Network Security</h3>
+          <p>Expert in securing LAN/WAN, VLANs, Firewalls (Cisco ASA, pfSense), IDS/IPS, and VPNs.</p>
+        </div>
+        <div class="skill-box">
+          <h3>🧪 Penetration Testing</h3>
+          <p>Hands-on experience using Nmap, Burp Suite, Metasploit, Hydra, etc., for real-world pen testing.</p>
+        </div>
+        <div class="skill-box">
+          <h3>🐧 Linux Administration</h3>
+          <p>Strong in system hardening, bash scripting, permissions, and deploying secure Linux environments.</p>
+        </div>
+        <div class="skill-box">
+          <h3>🎯 Bug Bounty & OSINT</h3>
+          <p>Active on HackerOne & Bugcrowd. Skilled with Recon-ng, Shodan, Google Dorking for recon work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>💻 Recent Professional Projects</h2>
+
+      <div class="project">
+        <h3>Enterprise Network Security Audit</h3>
+        <p>Conducted a full-scale audit, identified misconfigurations, and delivered ISO 27001-aligned reports.</p>
+      </div>
+
+      <div class="project">
+        <h3>Automated Threat Detection System</h3>
+        <p>Built a Python tool parsing logs and network traffic to trigger SIEM alerts in real-time.</p>
+      </div>
+
+      <div class="project">
+        <h3>Bug Bounty Program Contributions</h3>
+        <p>Reported XSS, SQLi, and logic flaws to programs on HackerOne, earning acknowledgments and rewards.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>📬 Contact Me</h2>
+      <p><strong>Email:</strong> <a href="mailto:aminebousiydy@protonmail.com">aminebousiydy@protonmail.com</a></p>
+      <p><strong>Instagram:</strong> <a href="https://www.instagram.com/cybertechnology101" target="_blank">@cybertechnology101</a></p>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Amine El Bousiydy. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
